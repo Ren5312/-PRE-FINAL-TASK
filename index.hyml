@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorting Algorithms Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Sorting Algorithms</h2>
+
+<label>Enter numbers (comma separated):</label><br>
+<input type="text" id="numbers" value="34,7,23,32,5,62,78,0,12,45">
+<br>
+
+<button onclick="runSort()">Sort Numbers</button>
+
+<div class="result" id="output"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
